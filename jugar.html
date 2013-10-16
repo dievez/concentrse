@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<script language="javascript" src="js/jquery-2.0.3.js" ></script>
+
+<link rel="stylesheet" type="text/css" href="css/concentrese.css"/>
+<script type="text/javascript" src="js/jquery.timer.js"></script>
+<script type="text/javascript" src="js/jquery.timers.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script src="js/core.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/es_LA/all.js"></script>
+<script>
+  FB.init({  appId      : '547523141961888', // App ID
+            status     : true, // check login status
+            cookie     : true, // enable cookies to allow the server to access the session
+            xfbml      : true  // parse XFBML
+       });
+  FB.getLoginStatus(handleSessionResponse);
+  function handleSessionResponse(response) {
+    console.log(response)
+    //FB.logout(handleSessionResponse);
+    // if we dont have a session (which means the user has been logged out, redirect the user)
+    if (!response.session) {
+   // window.location = "http://www.example.com/Login/";
+    return;
+    }
+    //if we do have a non-null response.session, call FB.logout(),
+    //the JS method will log the user out
+    //of Facebook and remove any authorization cookies
+    FB.logout(handleSessionResponse);
+}
+function logout(){
+  console.log(localStorage.token)
+  if(sessionStorage.fbLogued == "true"){
+     window.location = 'https://www.facebook.com/logout.php?next=http://www.reciclo.com.co/juego/&access_token='+localStorage.token;
+   }else{
+     window.location = "index.html";
+   }
+ /* FB.getLoginStatus(function(response) {
+    
+    if (response.status === 'connected') {
+        FB.logout();
+        
+    }
+  });*/
+}
+
+</script>
+<div class="cont_juego">
+  <div class="vidas">
+    <ul>
+      <li id="vida1"></li>
+      <li id="vida2"></li>
+      <li id="vida3"></li>
+      <li id="vida4"></li>
+      <li id="vida5"></li>
+      <li id="vida6"></li>
+      <li id="vida7"></li>
+      <li id="vida8"></li>
+      <li id="vida9"></li>
+      <li id="vida10"></li>
+    </ul>
+  </div>
+  <div class="btnCerrar"><img src="images/btnCerrar.png"></div>
+  <div class="cronometro">00:00:0.000</div>
+  <div class="tabla">
+        <div class="img">
+        <img src="images/skin1.png" id="img1"   /></div>
+        <div  class="img">
+          <img src="images/skin2.png" id="img2"  />
+        </div>
+        <div  class="img">
+          <img src="images/skin1.png" id="img3" />
+        </div>
+        <div  class="img">
+          <img src="images/skin2.png" id="img4"  />
+        </div>
+        <div  class="img">
+          <img src="images/skin1.png" id="img5"  />
+        </div>
+        <div  class="img">
+          <img src="images/skin2.png" id="img6"  />
+        </div>
+        <div  class="img">
+          <img src="images/skin1.png" id="img7" />
+        </div>
+        <div class="img">
+          <img src="images/skin2.png" id="img8" />
+        </div>
+        <div  class="img">
+          <img src="images/skin1.png" id="img9"  />
+        </div>
+        <div  class="img">
+          <img src="images/skin2.png" id="img10"  />
+        </div>
+        <div  class="img">
+            <img src="images/skin1.png" id="img11"  />
+        </div>
+        <div class="img">
+            <img src="images/skin2.png" id="img12"  />
+        </div>
+        <div  class="img">
+          <img src="images/skin1.png" id="img13" />
+        </div>
+        <div class="img">
+          <img src="images/skin2.png" id="img14" />
+        </div>
+        <div  class="img">
+          <img src="images/skin1.png" id="img15"  />
+        </div>
+        <div  class="img">
+          <img src="images/skin2.png" id="img16"  />
+        </div>
+    </div>
+    <div class="ranking">
+         <ul>
+         <!--  <li>
+            <div class="rankNumber">1</div>
+            <div class="rankImage"><img src="images/imgUser.png" /></div>
+            <div class="rankTime">00:00:0.000</div>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li> -->
+         </ul>
+    </div>
+</div>
+
+</body>
+</html>

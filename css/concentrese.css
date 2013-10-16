@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+}
+.index-cont{
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+    width:100%;
+}
+.login{
+    background-image: url(../images/bgLogin.png);
+    background-repeat: no-repeat;
+    width:516px;
+    height:369px;
+    float: left;
+    margin-top: 36%;
+	margin-left: 16%;
+	padding: 5% 0 0 5%;
+}
+.separador{
+	float: left;
+	margin-top: 3%;
+	margin-right: 15px;
+	width: 1px;
+	border-top: none;
+	border-bottom: none;
+    border-right-width: 2px;
+    border-left-style: groove;
+    height: 30px;
+}
+.btnLogin{
+	background-image: url(../images/btnLogin.png);
+	width: 76px;
+	height: 42px;
+	float: left;
+	margin-left: 48px;
+	margin-right: 15px;
+	margin-top: 2%;
+	cursor: pointer;
+	border:none;
+}
+.vidas{
+	position: relative;
+	width: 226px;
+	height: 20px;
+	top: 65px;
+	left: 133px;
+	
+}
+.vidas ul{
+	list-style: none;
+	padding: 0;
+	margin-left: 5px;
+}
+.vidas ul li{
+	background-image: url(../images/vidaBuena.png);
+	width: 20px;
+	height: 20px;
+	display: table-cell;
+	background-repeat: no-repeat;
+	padding-left: 2px;
+}
+.ranking{
+	width: 700px;
+	height: 100px;
+	float:left;
+	margin-left: 25px;
+}
+.ranking ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.ranking ul li{
+	display: table-cell;
+	background-repeat: no-repeat;
+	width: 106px;
+	height: 110px;
+	margin-left: 8px;
+	float: left;
+	color: #633d86;
+	background-image: url(../images/bgUserBlanco.png);
+}
+.last{
+	background-image: url(../images/bgUserMorado.png) !important;
+	color: #FFF !important;
+}
+.rankTime{
+	width: 100%;
+	text-align: center;
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 8px;
+}
+.error{
+	font-size: 12px;
+	color: red;
+}
+.btnCerrar{
+	float: left;
+	left: 387px;
+	top: 39px;
+	position: relative;
+	cursor: pointer;
+}
+.btnFacebook{
+	background-image: url(../images/btnFacebook.png);
+	width: 212px;
+	height: 42px;
+	margin-top: 2%;
+	float: left;
+	border:none;
+	cursor: pointer;
+}
+.rankImage{
+	float: left;
+	margin-left: 35px;
+}
+.contRankNumber{
+	float: left;
+	width: 100%;
+}
+.rankNumber{
+	text-align: center;
+	float: left;
+	width: 36px;
+	margin-top: 13px;
+	color: black !important;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+.loginElement{
+	float: left;
+	width: 100%;
+	color: #633c85;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 1.5%;
+	margin-left: 2%;
+}
+.loginElement input{
+	width: 80%;
+	border:none;
+	background-color: #cfcfcf;
+	height: 40px;
+	font-size: 20px;
+}
+label{
+	display: block;
+}
+.cont_jugar{
+	background-image: url(../images/fondo.png);
+	height: 854px;
+	width: 768px;
+    margin: 0 auto;
+}
+.cont_juego{
+	text-align: center;
+	background-image: url(../images/fondoj.png);
+	height: 854px;
+	width: 768px;
+    margin: 0 auto;
+}
+.instrucciones-btnContinuar{
+	float:left;
+	margin-left: 288px;
+    margin-top: 742px;
+}
+.datos-btnContinuar{
+	margin-left: 294px;
+    margin-top: 56px;
+	float:left;
+	cursor:pointer;
+}
+.invitaciones-btnContinuar{
+	margin-left: 192px;
+    margin-top: 14px;
+	float:left;
+	cursor:pointer;
+}
+.instrucciones-cont{
+    background-image:url(../imagenes/instruccionesbg.jpg);
+	width:810px;
+	height:811px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.invitaciones-cont{
+    background-image:url(../imagenes/invitarbg.jpg);
+	width:810px;
+	height:811px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.datos-cont{
+	background-image:url(../imagenes/datosbg.jpg);
+	width:810px;
+	height:811px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.bloque-resultados-fallidos{
+	background-image: url("../imagenes/bgintentos.png");
+    float: left;
+    height: 106px;
+    margin-left: 48px;
+    margin-top: 2px;
+    width: 225px;
+}
+.cronometro{
+	color: white;
+	position: relative;
+	float: left;
+	width: 91px;
+	height: 36px;
+	top: 108px;
+	left: 213px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 22px;
+}
+.instrucciones-btnContinuar{
+	float:left;
+}
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+	float: left;
+	height: 439px;
+	width: 750px;
+	margin-top: 167px;
+}
+.img{
+	cursor:pointer;
+	display:inline-table;
+}
+#oport{
+	color: #7C3A8A;
+    float: left;
+    font-family: Arial;
+    font-size: 63px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 26px;
+    text-align: right;
+    width: 120px;
+	
+}
+#reini{
+	margin-top:10px;
+	float:left;
+}
+.contpal{
+	background-image:url(../imagenes/bg.jpg);
+	width:810px;
+	height:811px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.datos-contenido{
+	color: #675C01;
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 237px;
+    margin-top: 280px;
+	text-align:left;
+}
+.datos-input{
+	text-align:left;
+	background-image:url(../imagenes/bginput.jpg);
+	width:393px;
+	height:49px;
+}
+.datos-input input{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 16px;
+    margin: 8px 8px 0 17px;
+    padding: 5px;
+    width: 327px;
+}
+.datos-input div{
+	float:left;
+   float:left;
+   margin:8px 0px  0px 20px;
+   
+}
+.datos-bloque-contenido{
+	float:left;
+	width:400px;
+	margin-top:15px;
+}
+.datos-check{
+	background-image:url(../imagenes/checkoff.jpg);
+	width:52px;
+	height:46px;
+	float:left;
+	margin-left:10px;
+	cursor:pointer;
+}
+.datos-lbl-check{
+	float:left;
+	margin:14px 0 0 0;
+}
+.datos-lbl{
+	margin-left:17px;
+}
+.invitar-amigos{
+	float: left;
+    height: 369px;
+    margin-left: 28px;
+    margin-top: 275px;
+    width: 740px;
+}
+.amigo-nom{
+	float:left;
+}
+.paginador{
+	float:left;
+	min-width:100px;
+	font-size:14px;
+	
+	
+}
+.paginador span{
+ padding:2px;
+ color:#6a2478;
+ font-family:Verdana;
+ cursor:pointer;
+}
+.amigo{
+	 display: inline-block;
+    font-family: Verdana;
+    font-size: 9px;
+    margin: 0 32px;
+    max-height: 112px;
+    max-width: 80px;
+    text-align: center;
+}
+.amigo-img{
+	float:left;
+	margin-left:2px;
+}
+.inp-amigo{
+	position:relative;
+	top:77px;
+	text-align:right;
+}
+.entregados_jugar{ 
+	position: absolute;
+	width: 200px;
+	height: 27px;
+	color:#FF0000;
+	top: 810px;
+	left: 408px;
+	padding: 2px;
+}
+.cant_ent_jugar{
+	font-size:20px;
+	font-weight:bold;
+	float:left;
+}
+.cant_total_jugar{
+	font-size:20px;
+	font-weight:bold;
+	float:left;
+	margin-left:42px;
+	
+}

@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: none repeat scroll 0 0 #FFF;
+	border: 0 none;
+	margin: 0 auto;
+	padding: 0;
+
+}
+/*
+//////////////////////////////////
+///seccion terminos////////////
+//////////////////////////////////
+*/	
+
+.share-pedir-dar-ver-terminos{
+	width: 130px;
+	height: 116px;
+	margin-top: 0px;
+	margin-left: 0px;
+	float: left;
+	cursor: pointer;
+}
+/*
+//////////////////////////////////
+///seccion no me gusta////////////
+//////////////////////////////////
+*/
+
+.nomegusta
+{
+	margin:0 auto;
+	width:810px;
+}
+/*
+///////////////////////////////
+///Seccion como Ranking////
+/////////////////////////////
+ */
+.cont_ranking{
+	background-image:url("../images/bg_rankin.jpg");
+	width:810px;
+	height:1309px;
+}
+.cont_ganadores{
+	float: left;
+	margin-top: 479px;
+	margin-left: 220px;
+	width: 398px;
+}
+.ganador_guitarra{
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 1010px;
+	left: 372px;
+}
+.ganador_guitarra span{
+	color: white;
+	float: left;
+	font-size: 12px;
+	margin-top: 14px;
+}
+.cont_ganadores img{
+	margin-bottom: 7px;
+	float: left;
+}
+.cont_ganadores li{
+	display: inline-table;
+	margin: 0px 21px 27px 22px;
+	width: 72px;
+
+}
+.cont_ganadores li span{
+	width:72px;
+	float:left;
+	font-size:9px;
+	font-weight:bold;
+	margin-bottom:5px;
+	text-align:center;
+	height:22px;
+}
+/*
+///////////////////////////////
+///Seccion como Premios////
+/////////////////////////////
+ */
+.cont_premios{
+	background-image:url("../images/bg_premios.jpg");
+	width:810px;
+	height:1480px;
+}
+.group_share_premios_1, .group_share_premios_2{
+	float:left;
+}
+.group_share_premios_1{
+}
+.group_share_premios_2{
+	margin-top: 314px;
+	margin-left: 190px;
+	width: 100px;
+}
+.share_premios{
+	float: left;
+	margin-top: 726px;
+	padding-left: 226px;
+}
+.group_share_premios_1 ul li{
+	float:left;
+}
+.group_share_premios_2 ul li{
+	float:left;
+}
+.bloque_share{
+	width: 100px;
+	float:left;
+	margin-right: 246px;
+}
+.bloque_share_2{
+	float:left;
+	width: 100px;
+}
+.btn_comenzar_premios{
+	position: absolute;
+	top: 1255px;
+	left: 245px;
+	width: 321px;
+	height: 50px;
+	cursor:pointer;
+}
+.btn_comenzar_invitar_amigos{
+	position: absolute;
+	top: 1137px;
+	left: 245px;
+	width: 321px;
+	height: 50px;
+	cursor:pointer;
+}
+.terminos_premios{
+	position:absolute;
+	background-image:url(../images/btn_terminos.png);
+	width:117px;
+	height:115px;
+	top: 1272px;
+}
+.text_premio{
+	float:left;
+	margin-left: 80px;
+	margin-top: 248px;
+	color:#355e45;
+	font-size:30px;
+	font-family:Arial;
+	width:457px;
+	text-align:center;
+	
+}
+.terminos_jugar{
+	position:absolute;
+	background-image:url(../images/btn_terminos.png);
+	width:117px;
+	height:115px;
+	top: 994px;
+	background-repeat:no-repeat;	
+}
+.terminos_ranking{
+	position:absolute;
+	background-image:url(../images/btn_terminos.png);
+	width:117px;
+	height:115px;
+	top: 1127px;
+	background-repeat:no-repeat;
+}
+.terminos_datos{
+	top: 879px !important;
+}
+.terminos_invitar{
+top: 1128px !important;
+}
+/*
+///////////////////////////////
+///Seccion invitar////////////
+/////////////////////////////
+ */
+.wrapper_premios{
+	background-image:url(../images/bg_invitar_amigos.jpg);
+	width:810px;
+	height:1309px;
+	float:left;
+}
+.amigos_wrap{
+	float:left;
+	margin: 556px 0px 0 88px;
+}
+.buscador-ami input{
+	float:left;
+	background-image:url("../images/bg_input.png");
+	background-repeat:no-repeat;
+	border:0px;
+	background-color:transparent;
+	width:567px;
+	height:45px;
+	color:#a5a5a5;
+	font-size:22pt;
+	padding-left:10px;
+	margin-left:25px;
+}
+.amigos_item ul li {
+	margin-left: 19px;
+	margin-right: 19px;
+	width: 76px;
+	display: inline-table;
+}
+.amigos_item {
+	float: left;
+	height: 390px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 604px;
+	margin-left: 1px;
+	margin-top: 12px;
+}
+.amigos_item ul li span {
+	text-align: center;
+	color:#35624b;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 76px;
+	display: block;
+	height: 28px;
+}
+.inp-amigo {
+	position: relative;
+	top: 77px;
+	text-align: right;
+}
+.cant-amigos-select{
+	font-size:20px;
+}
+.contador-amigos{
+	width: 55px;
+	height: 34px;
+	text-align: center;
+	font-size: 18px;
+	color: #e31c1f;
+	padding-top: 2px;
+	float: left;
+	margin: 33px 172px;
+}
+.contador-amigos div{
+	width:50px;
+	text-align:center;
+}
+/*
+///////////////////////////////
+///Seccion jugar////////////
+/////////////////////////////
+ */
+.cont_jugar{
+	background-image:url(../images/bg_juego.jpg);
+	width:810px;
+	height:1200px;
+	float:left;
+}
+.share_jugar{
+	position:absolute;
+	top: 926px;
+	left: 540px;
+}
+.btn_continuar{
+	cursor:pointer;
+	position:absolute;
+	top:1020px;
+	left:300px;
+}
+.btn_premios{
+	cursor:pointer;
+	position: absolute;
+	width: 230px;
+	height: 63px;
+	top: 913px;
+	left: 160px;
+}
+.btn_ver_ganadores{
+	cursor:pointer;
+	position: absolute;
+	width: 225px;
+	height: 228px;
+	top: 963px;
+	left: 576px;
+	background-image:url(../images/galardon.png);
+}
+.btn_ver_ganadores_p{
+	cursor:pointer;
+	position: absolute;
+	width: 225px;
+	height: 228px;
+	top: 1241px;
+	left: 576px;
+	background-image:url(../images/galardon.png);
+}
+/*
+///////////////////////////////
+///Seccion datos////////////
+/////////////////////////////
+ */
+.cont_datos{
+	background-image:url(../images/bg_datos.jpg);
+	width:810px;
+	height:1085px;
+	float:left;
+}
+.campos_datos{
+	float:left;
+	margin: 499px 0 0 274px;
+}
+.input_datos input{
+	background:url(../images/bg_inputs_06.jpg);
+	background-repeat:no-repeat;
+	width:445px;
+	height:44px;
+	border:0;
+	text-align:center;
+	font-size:16px;
+	
+	color:#333333;
+}
+.input_datos{
+  float:left;
+  margin-bottom:27px;
+}
+.btn_comenzar_datos{
+	position: absolute;
+	top: 847px;
+	left: 245px;
+	width: 321px;
+	height: 50px;
+	cursor: pointer;
+}
+label{
+	float:left;
+	color:#FF0000;
+}
